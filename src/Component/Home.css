@@ -1,0 +1,44 @@
+.bodyy{
+  background-image:('/Assests/background-complete.png');
+  background-size: 'cover';
+}
+
+.button1 {
+
+    border: none;
+    padding: 5px 90px;
+    cursor: pointer;
+    background-color:#0078FF;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 25px;
+    color:white;
+    height: 56px;
+    width: 408px;
+  }
+  .header-Image{
+    text-align: center;
+  }
+  .container-fluid2{
+    font-family:Montserrat;
+    margin-top: 200px;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) { 
+    .button1 {
+        padding: 15px 40px; 
+        font-size: 18px; 
+        width: auto; 
+        height: auto;
+    }
+    .container-fluid2 {
+        margin-top: 100px;
+    }
+    .header-Image img {
+      max-width: 100%; 
+      height: auto;
+  }
+}
+  
+ 

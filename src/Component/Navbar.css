@@ -1,0 +1,52 @@
+
+nav {
+    background-color: #fff; 
+    padding: 10px 20px;
+  }
+  
+  .container-Home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 108px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+
+  }
+  
+  .logo img {
+    max-height: 100px; 
+    width: 172px;
+  }
+  
+  .contact-us-button {
+
+    border: 2px solid black;
+    padding: 7px 40px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    height: 44px;
+    width: 216px;
+  }
+  
+  @media (max-width: 768px) { 
+    .container-Home {
+        flex-direction: column; 
+        height: auto; /* Remove fixed height for better flexibility */
+        padding: 10px 0; 
+    }
+    .logo img {
+        max-width: 100%; /* Make logo responsive */
+        height: auto;
+    }
+    .contact-us-button {
+        width: auto; /* Allow button to wrap to available width */
+        margin: 10px 0; /* Add vertical spacing between elements */
+    }
+}

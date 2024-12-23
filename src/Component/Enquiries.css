@@ -1,0 +1,129 @@
+.container-En1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+   
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+  }
+  
+  .col {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .col img {
+    width: 190px;
+    height: 190px;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 768px) { 
+    .row {
+        flex-direction: column; 
+    }
+    .col {
+        flex-basis: 100%; 
+     }
+    .col img {
+  max-width: 100%; 
+  height: auto; 
+    }
+  }
+
+
+
+  .property-section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .property-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .property-header h2 {
+    font-size: 2rem;
+    color: #121010;
+  }
+  
+  .property-header .subtitle {
+    color: #666;
+    margin-top: 0.5rem;
+    font-size: 18px;
+  }
+  
+  .property-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .property-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+  }
+  
+  .property-image img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .property-content {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .property-content h3 {
+    font-size: 1.5rem;
+    color: #060606;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .property-content .description {
+    margin-top: 1rem;
+    color: #555;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 21px;
+  }
+  
+  .but1 {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 42px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .property-body {
+      flex-direction: column;
+      text-align: center;
+      gap: 1.5rem;
+    }
+  
+    .property-image {
+      max-width: 70%;
+    }
+  
+    .property-content {
+      max-width: 100%;
+    }
+  }
+  
